@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+    color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    background-color:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #41125e;
+    border-radius: 5px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+.form{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+#countdown{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #300c47;
+    color: aliceblue;
+    font-size: 18px;
+    box-shadow: 0px 0px 10px #300c47;
+    cursor: pointer;
+}
