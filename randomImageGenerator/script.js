@@ -1,7 +1,7 @@
 import { createApi } from "https://cdn.jsdelivr.net/npm/unsplash-js@7.0.19/+esm";
 
 const unsplash = createApi({
-  accessKey:API_KEY ,
+  accessKey:API_KEY,
 });
 const body = document.body;
 const htwo = document.querySelector("h2");
