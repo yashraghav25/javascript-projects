@@ -13,7 +13,7 @@ function Timer({ initialTime, onTimeUp }) {
 
     return () => clearTimeout(timer); 
   }, [timeLeft, onTimeUp]);
-  
+
   const formatTime = (seconds) => {
     const minutes = Math.floor(seconds / 60);
     const secs = seconds % 60;
@@ -26,5 +26,4 @@ function Timer({ initialTime, onTimeUp }) {
     </div>
   );
 }
-
 export default Timer;
